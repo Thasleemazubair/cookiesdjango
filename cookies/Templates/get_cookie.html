@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>get cookie</title>
+</head>
+<body>
+ <h1>Cookie Value</h1>
+ <p>The current value of the cookie is:<strong>{{ user_id }}</strong></p>
+ <p>you can <a href = "{% url 'set_cookie' %}"> set a new cookie</a>or <a href = "{% url 'delete_cookie %}">delete the cookie</a></p>
+</body>
+</html>
